@@ -11,7 +11,7 @@ function  dadam_test_linear_svm()
 %
 % This file is part of DADAM.
 
-% Created by D.Ataee Tarzanagh on Jan. 17, 2019
+% Created on Jan. 17, 2019
 % Note that partial code is originaly created by H.Kasai for centralized algorithms (See https://github.com/hiroyuki-kasai/SGDLibrary)
 clc;
 clear;
