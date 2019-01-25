@@ -1,7 +1,10 @@
 # DADAM: A Consensus-based Distributed Adaptive Gradient Method for Online Optimization
-The MATLAB code is built on top of the SGDLibrary. You can find the latest vesion here: https://github.com/hiroyuki-kasai/SGDLibrary 
 
-# First to do
+# Installation
+## Requirements
+The algorithms have been implemented in MATLAB and make extensive use of the SGDLibrary. You can find the latest vesion at https://github.com/hiroyuki-kasai/SGDLibrary 
+
+
 Run run_me_first_to_add_libs_.m for path configurations.
 
 %% First run the setup script
