@@ -1,6 +1,5 @@
 function [w, infos] = dsgd(problem, in_options)
-% DSGD: A Method for stochastic optimization algorithm.
-
+% DSGD: Decentralized SGD
 
 %%
 % set dimensions and samples
