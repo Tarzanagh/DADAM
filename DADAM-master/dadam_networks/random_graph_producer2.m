@@ -1,4 +1,11 @@
 function [kappa_G,P,per_t,fig]=random_graph_producer2(L,per,name,show_graph,quiet,arg_opt1)
+
+% References: 
+%  W. Shi, Q. Ling, G. Wu, and W. Yin, “EXTRA: An Exact First-Order Algorithm for Decentralized Consensus Optimization,”
+%       SIAM Journal on Optimization, vol. 25, no. 2, pp. 944–966, 2015.
+%  S. Boyd, P. Diaconis, and L. Xiao, “Fastest mixing markov chain on a graph,” SIAM
+% review, vol. 46, no. 4, pp. 667–689, 2004.
+
 L_A=0;
 L_B=0;
 P(1:L,1:L)=0;
