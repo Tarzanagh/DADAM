@@ -2,7 +2,7 @@
 
 # Installation
 
-# 1- Requirements
+# 1- Requirement
 The algorithms have been implemented in MATLAB and make extensive use of the SGDLibrary. You can find the latest vesion at https://github.com/hiroyuki-kasai/SGDLibrary 
 
 
