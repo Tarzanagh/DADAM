@@ -1,5 +1,9 @@
 # DADAM: A Consensus-based Distributed Adaptive Gradient Method for Online Optimization
 
+# Introduction
+
+The DADAM is a MATLAB package of a collection of decentralized online and stochastic optimization algorithms. This solves an constrained minimization problem of the form, min f(x) = sum_i f_i(x) for x \in X .  
+
 # Installation
 
 # 1- Requirement
