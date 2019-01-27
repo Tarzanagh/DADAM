@@ -28,7 +28,7 @@ dadam_test_linear_svm.m
 
 dadam_test_l1_logistic_regression.m 
 
-dadam_test_softmax_classifier
+dadam_test_softmax_classifier.m
 
 
 
