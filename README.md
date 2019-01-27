@@ -20,7 +20,6 @@ You must then make sure that SGDLibrary and the DADAM-master can be seen from MA
  
 Execute example.m for the simplest demonstration of this package. This is the case of softmax regression problem.
 
-
 # Reproducing experiments from the paper
 To reproduce the experiments, exacute
 
