@@ -24,9 +24,9 @@ Execute example.m for the simplest demonstration of this package. This is the ca
 # Reproducing experiments from the paper
 To reproduce the experiments, exacute
 
-dadam_test_l1_logistic_regression.m 
-
 dadam_test_linear_svm.m 
+
+dadam_test_l1_logistic_regression.m 
 
 dadam_test_softmax_classifier
 
