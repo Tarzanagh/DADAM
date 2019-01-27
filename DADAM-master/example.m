@@ -218,7 +218,8 @@ end
 
 %% plot all
 % display cost vs grads
-display_graph('grad_calc_count','cost', algorithms, w_list, info_list);
+% display_graph('grad_calc_count','cost', algorithms, w_list, info_list);
+dadam_display_graph('grad_calc_count','cost', algorithms, w_list, info_list);
 end
 
 
