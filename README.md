@@ -14,13 +14,14 @@ The algorithms have been implemented in MATLAB and make extensive use of the SGD
  2- Setup
  
 Run run_me_first_to_add_libs_.m for path configurations.
-You must then make sure that SGDLibrary and the DADAM-master can be seen from MATLAB (i.e. make sure to run addpath on their paths).
+You must then make sure that SGDLibrary-master and DADAM-master can be seen from MATLAB (i.e. make sure to run addpath on their paths).
 
  3- Simplest usage example
  
 Execute example.m for the simplest demonstration of this package. This is the case of softmax regression problem.
 
 # Reproducing experiments from the paper
+
 To reproduce the experiments, exacute
 
 dadam_test_linear_svm.m 
