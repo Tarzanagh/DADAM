@@ -1,5 +1,5 @@
 function [w, infos] = dadadelta(problem, in_options)
-%  Decentralized DADADELTA algorithm.
+%  Decentralized ADADELTA algorithm.
 %
 % Inputs:
 %       problem     function (cost/grad_ii/hess)
