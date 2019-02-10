@@ -1,5 +1,5 @@
 function [w, infos] = dadam_parallel(problem, in_options)
-%Decentralized DADAM algorithm.
+%Decentralized ADAM algorithm.
 
 
 %%
