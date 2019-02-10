@@ -1,6 +1,6 @@
 function [w, infos] = dadadelta_parallel(problem, in_options)
 
-%Decentralized DADADELTA algorithm.
+%Decentralized ADADELTA algorithm.
 
 %%
 % set dimensions and samples
