@@ -1,6 +1,6 @@
 function [w, infos] = dadagrad(problem, in_options)
 
-%  Decentralized DADAGRAD algorithm.
+%  Decentralized ADAGRAD algorithm.
 
 
 %%
