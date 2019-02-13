@@ -10,7 +10,7 @@ For more details, please see https://arxiv.org/pdf/1901.09109.pdf
 
  1- Requirement
  
-The algorithms have been implemented in MATLAB and make extensive use of the SGDLibrary. You can find the latest vesion at https://github.com/hiroyuki-kasai/SGDLibrary 
+The algorithms have been implemented in MATLAB and make extensive use of the SGDLibrary. You can find the latest version at https://github.com/hiroyuki-kasai/SGDLibrary 
 
 
  2- Setup
