@@ -97,7 +97,7 @@ while (optgap > options.tol_optgap) && (epoch < options.max_epoch)
             % compute bias-corrected second raw moment estimate
             v_hat_node{ii} = v_node{ii}./(1 - options.beta2^total_iter);
             % normalize second raw moment
-            v_bar_node{ii} =options.beta3*v_hat_node{ii}+ ...
+            v_bar_node{ii} =options.beta3*v_bar_prev_node{ii}+ ...
                 (1-options.beta3)*max(v_bar_prev_node{ii}, v_hat_node{ii});
             v_bar_prev_node{ii} = v_bar_node{ii} ;
             d_node{ii}=m_hat_node{ii} ./ (sqrt(v_hat_node{ii}) + options.epsilon);
