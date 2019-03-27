@@ -130,7 +130,7 @@ for alg_idx=1:length(algorithms)
             
         case {'DADAM'}
             
-            options.epsilon = 1e-4;
+             %options.epsilon = 1e-4;
             [w_list{alg_idx}, info_list{alg_idx}] = dadam(problem, options);
         case {'DADAMAX'}
             
@@ -159,7 +159,7 @@ for alg_idx=1:length(algorithms)
             
         case {'C-DADAM'}
             
-            options.epsilon = 1e-4;
+            %options.epsilon = 1e-4;
             
             [w_list{alg_idx}, info_list{alg_idx}] = cdadam(problem, options);
             
