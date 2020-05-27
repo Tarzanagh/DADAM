@@ -105,7 +105,7 @@ while (optgap > options.tol_optgap) &&  (epoch < options.max_epoch)
                 w_consen_node = w_consen_node+ options.net(ii,jj)*w_node_prev{jj};
             end
             
-            w_node{ii} = w_consen_node - step * m_hat_node{ii} ./ (sqrt(v_hat_node{ii}) + options.epsilon);
+            w_node{ii} = w_consen_node - step * m_hat_node{ii} ./ (sqrt(v_bar_node{ii}) + options.epsilon);
             
             %proximal operator
             if prox==1
