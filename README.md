@@ -25,7 +25,7 @@ Execute example.m for the simplest demonstration of this package. This is the ca
 
 # Reproducing experiments from the paper
 
-To reproduce the experiments, exacute
+To reproduce the experiments, execute
 
 dadam_test_linear_svm.m 
 
