@@ -1,4 +1,4 @@
-# DADAM: A Consensus-based Distributed Adaptive Gradient Method for Online Optimization
+# DADAM: A Consensus-Based Distributed Adaptive Gradient Method for Online Optimization
 
 # Introduction
 
