@@ -4,7 +4,7 @@
 
 DADAM is a MATLAB package of a collection of decentralized online and stochastic optimization algorithms. This solves a constrained minimization problem of the form, 
 $$\min_{x \in X} \frac{1}{n}\sum_{t=1}^T\sum_{i=1}^n f_{i,t}(x),$$ 
-where $f_{i,t}$ is a continuously differentiable function on the convex set X.  
+where $f_{i,t}$ is a continuously differentiable function on the closed convex set $X$.  
 
 For more details, please see https://arxiv.org/pdf/1901.09109.pdf
 
