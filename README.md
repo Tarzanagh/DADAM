@@ -4,7 +4,7 @@
 
 DADAM is a MATLAB package of a collection of decentralized adaptive online and stochastic optimization algorithms. Given a set of $n$ clients,  we solve a constrained minimization problem of the form 
 $$\min_{x \in X} \sum_{t=1}^T\sum_{i=1}^n f_{i,t}(x).$$ 
-Here, T is the total number of rounds, and $f_{i,t}$ is a continuously differentiable function on the closed convex set $X$.  
+Here, $T$ is the total number of rounds, and $f_{i,t}$ is a continuously differentiable function on the closed convex set $X$.  
 
 For more details, please see https://arxiv.org/pdf/1901.09109.pdf
 
